@@ -1,0 +1,33 @@
+
+.nav-link:hover {
+    background-color: lightblue;
+  }
+  .nav-link:focus {
+    border-bottom:1px solid black;
+  }
+  .MyTab .row:hover{
+    background-color: lightgrey;
+  }
+ 
+@media (max-width: 600px){
+  .modal-dialog {
+    position: relative;
+    left: 45%;
+    margin-top: 6%;
+}
+}
+.modal-dialog {
+    position: relative;
+    left: 45%;
+    top: -5%;
+}
+.modal-open .modal{
+  overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.navbar
+{
+  background-color: white;
+}
+
